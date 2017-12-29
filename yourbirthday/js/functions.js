@@ -3,6 +3,10 @@ var $window = $(window), gardenCtx, gardenCanvas, $garden, garden;
 var clientWidth = $(window).width();
 var clientHeight = $(window).height();
 
+$(function(){
+	$("#audio")[0].play();
+})
+
 $(function () {
     // setup garden
 	$loveHeart = $("#loveHeart");
